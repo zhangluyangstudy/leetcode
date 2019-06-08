@@ -33,6 +33,11 @@ public class Leetcode14 {
         System.out.println(s);
     }
 
+    /***
+     * 网上优秀算法
+     * @param strs
+     * @return
+     */
     public String longestCommonPrefix1(String[] strs) {
         if(strs.length==0){
             return "";
