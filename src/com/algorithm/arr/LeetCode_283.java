@@ -2,7 +2,7 @@ package com.algorithm.arr;
 
 import org.junit.Test;
 
-public class LeetcodeTwoEightThree {
+public class LeetCode_283 {
     public void moveZeroes(int[] nums) {
         int length = nums.length;
         int[] targetNmu=new int[length];

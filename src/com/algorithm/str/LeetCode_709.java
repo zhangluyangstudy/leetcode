@@ -1,6 +1,6 @@
 package com.algorithm.str;
 
-public class LeetcodeSenvenZeroNine {
+public class LeetCode_709 {
     public String toLowerCase(String str) {
         char[] chars = str.toCharArray();
         for(int i = 0 ; i < chars.length; i++){

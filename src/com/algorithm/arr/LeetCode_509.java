@@ -2,7 +2,7 @@ package com.algorithm.arr;
 
 import org.junit.Test;
 
-public class LeetcodeFiveZeroNine {
+public class LeetCode_509 {
     public int fib(int N) {
         if (0==N){
             return 0;

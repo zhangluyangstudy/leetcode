@@ -2,7 +2,7 @@ package com.algorithm.arr;
 
 import java.util.Arrays;
 
-public class Leetcode_977 {
+public class LeetCode_977 {
     public int[] sortedSquares(int[] A) {
     for(int i=0;i<A.length;i++){
         A[i]=A[i]*A[i];

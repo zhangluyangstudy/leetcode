@@ -1,6 +1,6 @@
 package com.algorithm.dp;
 
-public class Leetcode122 {
+public class LeetCode_122 {
     public int maxProfit(int[] prices) {
         int price=0;
         for(int i=1;i<prices.length;i++){

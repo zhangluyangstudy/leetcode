@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class Leetcode739 {
+public class LeetCode_739 {
     /**
      * 此方法不可取，时间复杂度太高
      * @param T

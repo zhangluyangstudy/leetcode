@@ -1,6 +1,6 @@
 package com.algorithm.str;
 
-public class LeetcodeSixFiveSenven   {
+public class LeetCode_657 {
 
     public boolean judgeCircle(String moves) {
         char[] chars = moves.toCharArray();

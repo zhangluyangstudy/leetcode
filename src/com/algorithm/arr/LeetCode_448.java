@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Leetcode448 {
+public class LeetCode_448 {
 
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> list=new ArrayList<Integer>();

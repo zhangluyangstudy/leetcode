@@ -3,7 +3,7 @@ package com.algorithm.dp;
 import org.hamcrest.internal.ArrayIterator;
 import org.junit.Test;
 
-public class Leetcode14 {
+public class LeetCode_14 {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length==0){
             return "";

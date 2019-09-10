@@ -2,7 +2,7 @@ package com.algorithm.arr;
 
 import org.junit.Test;
 
-public class LeetcodeNineTwoTwo {
+public class LeetCode_922 {
     public int[] sortArrayByParityII(int[] A) {
         int[] arr=new int[A.length];
         int a=0;

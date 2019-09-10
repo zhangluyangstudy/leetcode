@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Leetcode_46 {
+public class LeetCode_46 {
     List<List<Integer>> res = new ArrayList<>();
 
 

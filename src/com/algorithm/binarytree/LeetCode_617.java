@@ -2,7 +2,7 @@ package com.algorithm.binarytree;
 
 import java.math.BigInteger;
 
-public class Leetcode617 {
+public class LeetCode_617 {
     /**
      *用递归实现
      * @param t1

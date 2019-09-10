@@ -1,6 +1,6 @@
 package com.algorithm.dp;
 
-public class LeetcodeOneTwoOne {
+public class LeetCode_121 {
     public int maxProfit(int[] prices) {
         int length = prices.length;
         if(length<=1){

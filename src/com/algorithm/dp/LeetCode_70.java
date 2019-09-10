@@ -1,6 +1,6 @@
 package com.algorithm.dp;
 
-public class LeetcodeSenvenZero {
+public class LeetCode_70 {
 
     public int climbStairs(int n) {
         if(n==1){
