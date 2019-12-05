@@ -1,9 +1,10 @@
 ---
-title: ArrayList理解
+                                    ArrayList理解
 
 ---
 java开发的朋友们都知道,ArrayList 是我们最常用的数据结构了.我们用它来存储数据。现在就探索一下它的底层实现。
 一般对于一个陌生的类，我们想使用它，都会先看它构造方法，再看它的属性和方法
+
 **1.ArryList的属性**
 
 ``` javascript
@@ -19,6 +20,7 @@ java开发的朋友们都知道,ArrayList 是我们最常用的数据结构了.�
     private int size;
 ```
 **2构造方法**
+
 我们平时一般都是 new ArrayList(); 那我们先看看空的构造方法
 
 ``` javascript
@@ -29,7 +31,9 @@ java开发的朋友们都知道,ArrayList 是我们最常用的数据结构了.�
 代码很简单 就是初始化一个空的数组
 看到这里  我们就已经明白了 ArrayList  其实底层就是数组
 数据结构无非就是增删改查 我们接下来看一下它的方法
+
 **3.方法介绍**
+
 **3.1 add方法**
 
 ``` javascript
@@ -94,7 +98,8 @@ java开发的朋友们都知道,ArrayList 是我们最常用的数据结构了.�
         }
     }
 ```
-3.2 remove方法
+**3.2 remove方法**
+
 先看代码
 
 ``` javascript
@@ -131,7 +136,8 @@ java开发的朋友们都知道,ArrayList 是我们最常用的数据结构了.�
 ```
 删除元素 就是找打数组的元素 然后把这个元素以后的元素位置都往前面移动一位
 System.arraycopy(a,0,b,0,10) 从数组a中的第0个位置开始复制10个数，复制到b中，从b中的0位置开始存放
-**2.3 set 方法(修改)**
+
+**3.3 set 方法(修改)**
 
 ``` javascript
     public E set(int index, E element) {
@@ -150,7 +156,7 @@ System.arraycopy(a,0,b,0,10) 从数组a中的第0个位置开始复制10个数�
             throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
     }
 ```
-**2.4 get(查找)**
+**3.4 get(查找)**
 
 ``` javascript
   public E get(int index) {
