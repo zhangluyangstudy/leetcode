@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 相交链表
  * @author zhangluyang
  * @2019/10/11 15:28
  */
@@ -19,19 +20,20 @@ public class LeetCode_160 {
     }
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        Map<ListNode,Integer> map=new HashMap<>();
-        while (headA!=null){
-            map.put(headA,1);
-            headA=headA.next;
-        }
-        headB=headB.next;
-        while (headB!=null){
-            if(map.get(headB.val)!=null){
-                return headB;
+        ListNode A=headA;
+        ListNode B=headB;
+        while (A!=B){
+          if(A==null){
+              A=headB;
+          }else {
+              A=A.next;
+          }
+            if(B==null){
+                B=headA;
+            }else {
+                B=B.next;
             }
-            headB=headB.next;
-
         }
-        return null;
+        return A;
     }
 }
