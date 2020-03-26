@@ -49,6 +49,7 @@ public class LeetCode_1160 {
 
     @Test
     public void test1(){
+
         int atach = countCharacters(new String[]{"hello","world","leetcode"}, "welldonehoneyr");
         System.out.println(atach);
     }
