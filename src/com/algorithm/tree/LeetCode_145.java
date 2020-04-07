@@ -1,6 +1,7 @@
 package com.algorithm.tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -37,4 +38,29 @@ public class LeetCode_145 {
         }
         return null;
     }
+
+    public List<Integer> postorderTraversal1(TreeNode root) {
+
+        LinkedList<Integer> list=new LinkedList<>();
+        if(root==null){
+            return list;
+        }
+        Stack<TreeNode> stack=new Stack<>();
+        stack.push(root);
+        while (!stack.empty()){
+            TreeNode pop = stack.pop();
+            list.addFirst(pop.val);
+            if(pop.left!=null){
+                stack.push(pop.left);
+            }
+            if(pop.right!=null){
+                stack.push(pop.right);
+            }
+        }
+        return list;
+    }
+
+
+
+
 }
