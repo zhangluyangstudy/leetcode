@@ -39,6 +39,20 @@ public class LeetCode_671 {
         }
         r(root.left,val);
         r(root.right,val);
+    }
+
+
+    public int findSecondMinimumValue1(TreeNode root) {
+        if (root == null || root.left == null) {
+            return -1;
+        }
+        int value = root.val;
+        r1(root.left,value);
+        r1(root.right,value);
+        return result;
+    }
+
+    private void r1(TreeNode root, int value) {
 
     }
 }
